@@ -1,6 +1,6 @@
 package com.company;
 
-public class LimitException extends Exception  {
+public class LimitException extends Exception {
     String message;
     public double remainingAmount;
 
@@ -9,12 +9,12 @@ public class LimitException extends Exception  {
         return remainingAmount;
     }
 
-    public LimitException ( String message, double remainingAmount) {
+    public LimitException(String message, double remainingAmount) {
         super(message);
         this.remainingAmount = remainingAmount;
 
     }
-    public double getRemaingnAmount(){
+    public double getRemaingnAmount() {
         return getRemaingnAmount();
     }
 

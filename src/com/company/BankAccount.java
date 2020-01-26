@@ -3,10 +3,6 @@ package com.company;
 public class BankAccount {
     double Amount;
 
-    public BankAccount(double amount) {
-        this.Amount = amount;
-    }
-
     public BankAccount() {
     }
 
