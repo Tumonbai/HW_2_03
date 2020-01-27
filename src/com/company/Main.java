@@ -9,7 +9,7 @@ public class Main {
         while (true) {
             try {
                 System.out.println(bankAccount.getAmount());
-                bankAccount.withDraw(3000);
+                bankAccount.withDraw(6000);
             } catch (LimitException e) {
                 System.out.println(e.getMessage());
                 System.out.println(bankAccount.getAmount()-bankAccount.getAmount());
